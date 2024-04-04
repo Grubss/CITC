@@ -1,0 +1,122 @@
+/* Global style */
+
+body {
+    background-color:black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#container {
+    background-color: #574141;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: black;
+
+}
+
+p {
+    text-align: center;
+}
+
+/* Desktop styles */
+
+nav {
+    background-color: gray;
+    padding: 2px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: darkblue;
+}
+
+header h1{
+    font-size: 75 px;
+    color: black;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 33.3%;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+}
+
+.button {
+    display: block;
+    background-color: black;
+    width: 125px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: white;
+}
+
+#xpacs {
+    display: flex;
+}
+
+.xpaccover {
+    margin: 10px;
+}
+
+.xpaccover img {
+    width: 100%;
+}
